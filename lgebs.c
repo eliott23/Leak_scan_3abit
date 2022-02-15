@@ -104,15 +104,3 @@ void     *lgebs(void *ptr, char *file, int line, int option, size_t size)
     }
     return (0);
 }
-
-// int main()
-// {
-//     char    *a;
-//     char    *b;
-//     a = lgebs(0,"lol", 111, 1, 4);
-//     lgebs(0, "lol", 555, 1, 3);
-//     lgebs(a, "lol", 444, 2, 3);
-//     b = lgebs(0,"whatever", 777, 1, 5);
-//     lgebs(b,"whatever", 777, 2, 5);
-//     lgebs(0,"lol", 44, 3, 5);
-// }
