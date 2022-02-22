@@ -1,3 +1,3 @@
-include the header in ur source code, and add the following line in the end (of the src code) ---> lgebs(*,*,*, 3, *)
-* means just any random value doesn't rly matter except for the 3,
+include the header in ur source code, and add the following line in the end (of the src code) ---> lgebs(0,0,0, 3, 0)
+0 means just any random value doesn't rly matter except for the 3,
 idc if this tool itself has leaks (which is probably the case),
