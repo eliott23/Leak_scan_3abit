@@ -97,7 +97,8 @@ void     *lgebs(void *ptr, char *file, int line, int option, size_t size)
     }
     if (option == 3)
     {
-        ft_scan(list);
+	if (list)
+	        ft_scan(list);
         // if (list)
         //     free(list);
         return (0);
